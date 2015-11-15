@@ -1,30 +1,20 @@
-site_name: 文 档
-site_url: https://bibaijin.github.io/tutorial
-site_description: 一些技术的使用技巧及心得
+site_name: Python Tutorial
+site_url: https://bibaijin.github.io/tutorial-python
+site_description: Python 的学习心得
 site_author: bibaijin
 
-repo_url: https://github.com/bibaijin/tutorial
+repo_url: https://github.com/bibaijin/tutorial-python
 
 theme: mkdocs
 theme_dir: 'custom_theme'
 
 pages:
 - 首页: index.md
-- Haskell: haskell.md
-- LaTeX: LaTeX.md
 - Python:
     - Built-in: python/built-in.md
     - Django: python/django.md
     - Matplotlib: python/matplotlib.md
     - MkDocs: python/mkdocs.md
-- Ruby:
-    - Built-in: ruby/built-in.md
-    - Jekyll: ruby/jekyll.md
-- PostgreSQL: postgresql.md
-- Linux:
-    - OS: linux/os.md
-    - Shell: linux/shell.md
-- Git: git.md
 - 关于: about.md
 
 markdown_extensions:
